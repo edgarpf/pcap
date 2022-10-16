@@ -45,10 +45,12 @@
     stocks_1 = {'MSFT': 280.0, 'AAPL': 146.39, 'TSLA': 644.22}
     stocks_2 = {'AMZN': 3573.0, 'NVDA': 726.44}
     ```
-    You can combine them with: <br>
-        stocks_1 | stocks2 <br>
-        stocks_1.update(stocks2) <br>
-        {**stocks_1, **stocks2}
+    You can combine them with:
+    ```
+    stocks_1 | stocks2 
+    stocks_1.update(stocks2) 
+    {**stocks_1, **stocks2}
+    ```
 * ***help([object])*** - invokes the built-in help system.
 * Convert a list to a set and back to a list again to remove duplicates from the list.
 * The try/except statement specifies exception handlers and/or cleanup code for a group of statements.
@@ -75,4 +77,26 @@
     else:
         print('data not received')
     ```
+* Python is a high level programming language.
+* Protected members of a class are accessible from within the class and are also available to its sub-classes. No other environment is permitted access to it. This enables specific resources of the parent class to be inherited by the child class. Python's convention to make an instance variable protected is to add a prefix `_` (single underscore) to it.
+* The meaning of the **keyword argument** is determined by its name specified along with its value.
+* **Guido van Rossum** is the creator of Python.
+* The following answers will create an empty class
+    ```python
+    class Company(object):
+        pass
+    ```
+    ```python
+    class Company: pass
+    ```
+    ```python
+    class Company:
+        pass
+    ```
+* `pip list` - Lists installed packages, including editables. Packages are listed in a case-insensitive sorted order.
+* `pip freeze` - outputs installed packages in requirements format. Packages are listed in a case-insensitive sorted order.
+* `bin(x)` - convert an integer number to a binary string prefixed with “0b”.
+* Considering `p = Person()` you get class name using `type(p).__name__` and `p.__class__.__name__`.
+* `from math import *` is usnafe. You will import all entities from math module.
+* `__file__` - the pathname of the file from which the module was loaded, if it was loaded from a file.
 * 
