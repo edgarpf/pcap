@@ -37,7 +37,7 @@
     10 <br>
     20
 * ***KeyError*** is raised when a mapping (dictionary) key is not found in the set of existing keys.
-* ','.join(list_name) returns a string which is the concatenation of the strings of list_name.
+* `','.join(list_name)` returns a string which is the concatenation of the strings of list_name.
 * ***Method Resolution Order (MRO)*** is the order in which base classes are searched for a member during lookup.
 * ***list.index(x[, start[, end]])*** - return zero-based index in the list of the first item whose value is equal to x. Raises a ValueError if there is no such item. 
 * The following dictionaries are given:
