@@ -99,4 +99,29 @@
 * Considering `p = Person()` you get class name using `type(p).__name__` and `p.__class__.__name__`.
 * `from math import *` is usnafe. You will import all entities from math module.
 * `__file__` - the pathname of the file from which the module was loaded, if it was loaded from a file.
-* 
+* The following code: 
+    ```python
+        a = [1, 2, 3, 4, 5]
+        b = a
+        b[:] = [3, 6]
+    ```
+  will result in:
+  ```python
+  b = [3, 6]
+  a = [3, 6]
+  ```
+* You only need to add a double underscore __ before the attribute name to make it private.
+* Assert statements are a convenient way to insert debugging assertions into a program.
+* Function definition must be placed before the first invocation.
+* list() is list() is false because there two different lists.
+* `str.title()` - return a titlecased version of the string where words start with an uppercase character and the remaining characters are lowercase.
+* `from math import sin, exp` - It's correct, but not recommended due to stylistic reasons. It's better and prettier to express the same intention in more a verbose and explicit form using two lines.
+* `issubset(other)` or `set <= other` - test whether every element in the set is in other.
+* `True` and `and` are reserved words in Python.
+* A docstring is a string literal that occurs as the first statement in a module, function, class, or method definition. Such a docstring becomes the `__doc__` special attribute of that object.
+* The following commands will check the pip version:
+    ```
+    pip --version
+    python -m pip --version
+    py -m pip --version
+    ```
