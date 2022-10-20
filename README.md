@@ -125,3 +125,10 @@
     python -m pip --version
     py -m pip --version
     ```
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
