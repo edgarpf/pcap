@@ -125,7 +125,7 @@
     python -m pip --version
     py -m pip --version
     ```
-# [VEJA ISSO DIEGO](veja)
+# [VEJA ISSO, DIEGO](veja)
 ```mermaid
   graph TD;
       A-->B;
