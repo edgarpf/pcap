@@ -125,11 +125,44 @@
     python -m pip --version
     py -m pip --version
     ```
-# [VEJA ISSO, DIEGO](veja)
-```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
-```
+* Special attributes of the classes:
+  * `__name__` - the class name
+  * `__module__` - the name of the module in which the class was defined
+  * `__dict__` - the dictionary containing the class’s namespace
+  * `__bases__` - a  tuple containing the base classes, in the order of their occurrence in the base class list
+  * `__dict__` - the dictionary containing the class’s namespace
+  * `__annotations__` - a dictionary containing variable annotations collected during class body execution.
+* `[*list1, *list2]` - combine two lists.
+* The `__init__.py` files are required to make Python treat directories containing the file as packages.
+* Both are correct:
+    ```python
+    import os
+    import sys
+    ```
+    ```python
+    import os, sys
+    ```
+* Both are incorrect:
+    ```python
+    from python import os
+    from python import sys
+    ```
+    ```python
+    from python import os, sys
+    ```
+* `isinstance(object, classinfo)` - return True if the object argument is an instance of the classinfo argument.
+* Note the `increment_age` method.
+    ```python
+    class Pet:
+        def __init__(self, name, age):
+            self.name = name
+            self.age = age
+        def increment_age(self):
+            self.age += 1
+    ```
+* `hasattr(object, name)` - the arguments are an object and a string. The result is True if the string is the name of one of the object’s attributes, False if not.
+* `pip show` - Show information about one or more installed packages. The output is in RFC-compliant mail header format.
+* `str.splitlines(keepends=False)` - returns a list of the lines in the string, breaking at line boundaries.
+* Guido van Rossum began working on Python in the late 1980s as a successor to the ABC programming language and first released it in 1991 as Python 0.9.0.
+* List than contains None value can not be sorted.
+* 
