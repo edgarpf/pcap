@@ -165,4 +165,67 @@
 * `str.splitlines(keepends=False)` - returns a list of the lines in the string, breaking at line boundaries.
 * Guido van Rossum began working on Python in the late 1980s as a successor to the ABC programming language and first released it in 1991 as Python 0.9.0.
 * List than contains None value can not be sorted.
+* Using the code:
+    ```python
+    from machine_learning import classification_report
+    ```
+    you can use:
+    ```python
+    classification_report()
+    ```
+* Python 3.6 introduced underscores in numeric literals, which allows you to place single underscores between numbers and after base specifiers to improve readability. This feature is not available in older Python versions.
+* Yield expressions and statements are only used when defining a generator function, and are only used in the body of the generator function. 
+* `NameError` is raised when a local or global name is not found. 
+* PSF - Python Software Foundation.
+* Python’s default arguments are evaluated once when the function is defined, not each time the function is called.
+* The following declarations are valid:
+    ```python
+    a, b = 'a', 'b'
+    a = 'a'; b = 'b'
+    ```
+* `repr(object)` - return a string containing a printable representation of an object.
+* The following code is valid:
+    ```python
+    try:
+        import my_package
+    except ModuleNotFoundError as err:
+        print(err)
+    ```
+* Break ouside loop will raise a SyntaxError exception.
+* All the declarations are valid:
+    ```python
+    stocks1 = ('AAPL',)
+    stocks2 = tuple(['AAPL'])
+    stocks3 = 'AAPL',
+    ```
+* In Python, all exceptions must be instances of a class that derives from `BaseException`.
+* `str.strip([chars])` - returns a copy of the string with the leading and trailing characters removed.
+* `str.rstrip([chars])` - returns a copy of the string with trailing characters removed. 
+* `str.lstrip([chars])` - returns a copy of the string with leading characters removed.
+* How to delete the code:
+    ```python
+    course_name = 'python interview'
+    ```
+    ```python
+    del course_name
+    del globals()['course_name']
+    del(course_name)
+    ```
+* The `pass` statement does nothing. It can be used when a statement is required syntactically but the program requires no action.
+* `hasattr(object, name)` - the arguments are an object and a string. The result is True if the string is the name of one of the object’s attributes, False if not.
+* Multiline strings, which occupy more than one line of source code are delimited by trigraphs:
+  * '''
+  * """
+* List comprehensions provide a concise way to create lists.
+* `pip uninstall` - Uninstall packages. pip is able to uninstall most installed packages.
+* Dictionaries keep the insertion order since Python 3.7 or higher.
+* The right argument of the % operator can not be zero.
+* `issubclass(class, classinfo)` - return True if class is a subclass (direct, indirect, or virtual) of classinfo.
+* An except clause may name multiple exceptions as a parenthesized tuple, for example: 
+    ```python
+    except (RuntimeError, TypeError, NameError):
+        pass
+    ```
+* When iterating over a dictionary, we iterate over its keys by default.
 * 
+
