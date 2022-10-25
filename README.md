@@ -236,5 +236,20 @@
 * **ZeroDivisionError** is raised when the second argument of a division or modulo operation is zero. 
 * List slicing: list[start:stop:step]
 * `pip freeze` - outputs installed packages in requirements format. Packages are listed in a case-insensitive sorted order.
+* The code:
+    ```python
+    input_str = '3.14'
+    converted_int_number = int(input_str)
+    ```
+    will raise **ValueError** exception.
+* 0., .0 and 1e6 are float types.
+* `iterator` - an object representing a stream of data. Repeated calls to the iterator’s `__next__()` method (or passing it to the built-in function next()) return successive items in the stream. Iterators are required to have an `__iter__()` method that returns the iterator object itself
+* `ord(c)` - given a string representing one Unicode character, return an integer representing the Unicode code point of that character.
+* Use the **global** to create a global variable from local scope.
+* The compiled Python bytecode is stored in files which have their names ending with **pyc**.
+* PEP stands for Python Enhancement Proposal. The PEP is a design document that provides information to the Python community or describes a new Python function, its processes, or its environment. It is also a set of rules that determine how Python code is formatted for maximum readability.
+* `zip(*iterables, strict=False)` - iterate over several iterables in parallel, producing tuples with an item from each one.
+* `sys.version` - a  string containing the version number of the Python interpreter plus additional information on the build number and compiler used.
+* `any(iterable)` - return True if any element of the iterable is true. If the iterable is empty, return False.
+* `builtins` module provides direct access to all ‘built-in’ identifiers of Python; for example, builtins.open is the full name for the built-in function open().
 * 
-
