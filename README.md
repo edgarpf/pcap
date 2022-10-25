@@ -227,5 +227,14 @@
         pass
     ```
 * When iterating over a dictionary, we iterate over its keys by default.
+* `id(object)` - return the “identity” of an object.
+* `numbers[:]` is a copy of `numbers = [1, 2,3]`
+* `True + True + 2 * True - False` = 4
+* There is no `switch` statement in Python.
+* `object.__new__(cls[, ...])` - called to create a new instance of class cls.
+* `filter(function, iterable)` - constructs an iterator from those elements of iterable for which function returns true. 
+* **ZeroDivisionError** is raised when the second argument of a division or modulo operation is zero. 
+* List slicing: list[start:stop:step]
+* `pip freeze` - outputs installed packages in requirements format. Packages are listed in a case-insensitive sorted order.
 * 
 
