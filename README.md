@@ -252,4 +252,27 @@
 * `sys.version` - a  string containing the version number of the Python interpreter plus additional information on the build number and compiler used.
 * `any(iterable)` - return True if any element of the iterable is true. If the iterable is empty, return False.
 * `builtins` module provides direct access to all ‘built-in’ identifiers of Python; for example, builtins.open is the full name for the built-in function open().
-* 
+* Python strings are immutable. 
+* A special method (magic method) is a method that is implicitly called by Python to perform a specific operation. For example, such as addition, subtraction, extended assignment, etc. Special methods have names that begin and end with double underscores.
+* PEP8 is a document that provides coding conventions and style guide for Python code.
+* `importlib.reload(module)` - reloads a previously imported module.
+* PyPI is shor for Python Package Index.
+* When a Python source file is imported for the first time, a `__pycache__` directory will be created in the package directory, if one does not already exist. 
+* You cannot append elements to tuples.
+* var = 36e-4 -> 0.0036
+* 'python' * False = ''
+* var1 is var2 = true if they have the same value.
+* When a dictionary is converted to a set using `set()` the result is a set of dictionary keys.
+* The `datetime` module supplies classes for manipulating dates and times.
+* An infinite recursive function will raise RecursionError exception.
+* `class type(name, bases, dict, **kwds)` - with one argument, return the type of an object.
+* Conda and Pip are package managers.
+* The LEGB abbreviation consists of the first letters of all Python scope names: Local, Enclosing, Global, Built-in.
+* CPython is the default implementation of the Python programming language.
+* **Python While Else** - With the else statement we can run a block of code once when the condition no longer is true:
+* Python supports functional programming.
+* `object.__repr__(self)` - called by the `repr()` built-in function to compute the “official” string representation of an object.
+* **SyntaxError** is raised when the parser encounters a syntax error.
+* `keyword.kwlist` - sequence containing all the keywords defined for the interpreter.
+* **do while** is not available in Python.
+
