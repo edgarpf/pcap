@@ -275,4 +275,43 @@
 * **SyntaxError** is raised when the parser encounters a syntax error.
 * `keyword.kwlist` - sequence containing all the keywords defined for the interpreter.
 * **do while** is not available in Python.
-
+* Lambda function has a : as example:
+    ```python
+    lambda (a,b): True
+    ```
+* **true** does not exist. **True** is correct.
+* `re` module in Python supports regular expressions.
+* `10 != '1' + '0'` results in `False`. No exception is raised. 
+* The `platform.system()` function returns a string with your OS name, the `platform.version()` function returns a string with your OS version. The `platform.processor()` function returns a string with the name of your processor.
+* `os.mkdir("a/b/c/d")` will raise **FileExistsError** if d exists.
+* The integer value of `True` is 1.
+* If the index is given, `pop()` removes and returns
+the element at the given index.
+* When there is no `__str__()` method present and you print an object, Python shows the object id in that way.
+* `insert(0, 1)` inserts 1 before index 0 (at the front of the list).
+* `break` can not be used outside of a loop,
+and the default `except` must be last.
+* The values that become False in Python are the following:
+    ```python
+    print(bool(''))        # False
+    print(bool(0))         # False
+    print(bool(0.0))       # False
+    print(bool(0j))        # False
+    print(bool(None))      # False
+    print(bool([]))        # False
+    print(bool(()))        # False
+    print(bool({}))        # False
+    print(bool(set()))     # False
+    print(bool(range(0)))  # False
+    ```
+* The **Exception** class contains a property named **args** and it is a tuple.
+* First use `pip list --outdated` to list your outdated packages. Then use `pip install -U package_name` to update one of the packages.
+* The `read()` method reads the whole content of a file and returns it as a string. The `readline()` method only reads one line. The `readlines()` method also reads the whole content but returns it as a list of lines.
+* If a variable name shadows into a function you can use it in an expression or you can assign a new value to it BUT you can not do both at the same time.
+* The division operator ALWAYS returns a float.
+* An imported module is executed only once.
+* `range(-1, -2)` has no element.
+* If you have instance variables with two leading underscores,
+you can not just access them from outside of the class. The code will raise **AttributeError** exception.
+* The digraph written as **#!** is used to tell a Unix or Unix-like OS how to execute the contents of a Python file.
+* 
