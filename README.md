@@ -314,4 +314,27 @@ and the default `except` must be last.
 * If you have instance variables with two leading underscores,
 you can not just access them from outside of the class. The code will raise **AttributeError** exception.
 * The digraph written as **#!** is used to tell a Unix or Unix-like OS how to execute the contents of a Python file.
+* List slicing: [start(inclusive):end(exclusive):step]
+* **ZeroDivisionError** is a subclass of **ArithmeticError**.
+* **Python Package Index** is also known as the Cheese Shop
+* stdin, stdout, stderr are names of pre-opened streams.
+* stdout and stderr are associated with the console.
+* stdin is associated with the keyboard.
+* A list of package's dependencies can be obtained from pip using its command named **show**.
+* String literals that are delimited by whitespace are automatically concatenated.
+* Lambda functions can have any number of arguments but only one expression.
+* `__eq__()` overloads the equal to operator.
+* **errno.ENOENT** symbol refers to an error described as No such file or directory.
+* None value can not be used as an argument of arithmetic operators.
+* `from x.y import z` causes the import of entity z from module y from package x.
+* default 'except:' must be last
+* A code point is a number which makes up a character.
+* `listdir()` never includes the special entries . and ..
+* The `math.floor()` method rounds a number DOWN to the nearest integer.
+* The `math.ceil()` method rounds a number UP to the nearest integer.
+* The `tuple.index()` method expects a value and looks for that value in the tuple. It will return the index of the first value it finds. If it does not find the value, it raises a ValueError.
+* The method in Python to immediately terminate a program is `sys.exit()`.
+* A string is immutable. You can not change it. You can read something by indexing, BUT you can not write something by indexing.
+* A source file named `__init__.py` is used to mark a directory/folder as containing a Python package, and to initialize the package.
+* `'' in 'alphabet'` is `True`.
 * 
