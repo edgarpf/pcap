@@ -337,4 +337,16 @@ you can not just access them from outside of the class. The code will raise **At
 * A string is immutable. You can not change it. You can read something by indexing, BUT you can not write something by indexing.
 * A source file named `__init__.py` is used to mark a directory/folder as containing a Python package, and to initialize the package.
 * `'' in 'alphabet'` is `True`.
+* Pip means Pip Installs Packages.
+* The pyc files are created by the Python interpreter when a py file is imported. They contain the compiled bytecode of the imported module.
+* Greater than operator and less than operator have the highest precedence. The logical and operator has a higher precedence than the logical or operator.
+* Imported files get executed only once.
+* The list of possible exceptions has to be in parentheses.
+* Every object has the method `__len__()`. Normally we use the function len() which calls the method `__len__()`.
+* The folder created by Python used to store **pyc** files is named `__pycache__`.
+* The `rfind()` method finds the last occurrence of a specified value.
+* The `index()` method finds the first occurrence of a specified value.
+* `print('is' in 'This IS Python code.')` is True.
+* A string is immutable and if you create two strings with the same value they will both point to the same object and therefore have the same ids.
+* In `range(start, end)` The start value has to be lower than the end value. Otherwise range() does not return an element.
 * 
