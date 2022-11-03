@@ -349,4 +349,14 @@ you can not just access them from outside of the class. The code will raise **At
 * `print('is' in 'This IS Python code.')` is True.
 * A string is immutable and if you create two strings with the same value they will both point to the same object and therefore have the same ids.
 * In `range(start, end)` The start value has to be lower than the end value. Otherwise range() does not return an element.
-* 
+* A tuple can be the index of a dictionary.
+* Packages can contain modules.
+* Since Python 3.4 pip has been included with the Python installer.
+* If both operands are an integer the floor division operator will return an integer. If at least one operand is a float the result will also be a float.
+* In the list of classes to inherit from a superclass cannot come before its subclass.
+* The `dir()` function returns the names of all entities
+(properties and methods) of the passed module (or object).
+* Dictionary can have different data types as a key.
+BUT if an integer and a float have the same value,
+the second value overrides the first values.
+* The `isdigit()` method checks if all the characters in the string are digits.
