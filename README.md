@@ -360,3 +360,40 @@ you can not just access them from outside of the class. The code will raise **At
 BUT if an integer and a float have the same value,
 the second value overrides the first values.
 * The `isdigit()` method checks if all the characters in the string are digits.
+* If you try to divide by a string you get a `TypeError`.
+* If a class doesn't define its own constructor, the constructor of its superclass is invoked.
+* **Error** is not a subclass of **RuntimeError**.
+* The code:
+    ```python
+    def func(data):
+        data = [7, 23, 42]
+        print('Function scope: ', data)
+    
+    
+    data = ['Peter', 'Paul', 'Mary']
+    func(data)
+    print('Outer scope: ', data)
+    ```
+    will print:
+    ```
+    Function scope: [7, 23, 42]
+    'Outer scope: ['Peter', 'Paul', 'Mary']
+    ```
+* The `read()` method has one optional parameter.
+If it is given, that number of characters are read.
+* There is no increment operator ++ in Python.
+You can add as many plus signs as you like, the number stays positive.
+* The output of the code:
+    ```python
+    for i in range(1):
+        print('*')
+    else:
+        print('*')
+    ```
+    will be:
+    ```
+    **
+    ```
+* The `print()` function called without an argument will print an empty line.
+The amount of possible arguments depends on the capacities of your computerbut it is going to be more than you will ever need.
+* 
