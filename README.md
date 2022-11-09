@@ -396,4 +396,12 @@ You can add as many plus signs as you like, the number stays positive.
     ```
 * The `print()` function called without an argument will print an empty line.
 The amount of possible arguments depends on the capacities of your computerbut it is going to be more than you will ever need.
-* 
+* The empty string is smaller than any other.
+* `pip --version` and `pip -V` will show pip version.
+* The `read()` function reads the whole file
+and returns a string.
+The `readlines()` function also reads the whole file
+and returns a list of the single lines.
+And you can also iterate through the file object.
+In each iteration you will get one line.
+* `at` mode will allow you to append text in a file.
