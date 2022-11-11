@@ -281,7 +281,7 @@
     ```
 * **true** does not exist. **True** is correct.
 * `re` module in Python supports regular expressions.
-* `10 != '1' + '0'` results in `False`. No exception is raised. 
+* `10 != '1' + '0'` results in `True`. No exception is raised. 
 * The `platform.system()` function returns a string with your OS name, the `platform.version()` function returns a string with your OS version. The `platform.processor()` function returns a string with the name of your processor.
 * `os.mkdir("a/b/c/d")` will raise **FileExistsError** if d exists.
 * The integer value of `True` is 1.
