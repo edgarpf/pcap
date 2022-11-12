@@ -267,7 +267,6 @@
 * An infinite recursive function will raise RecursionError exception.
 * `class type(name, bases, dict, **kwds)` - with one argument, return the type of an object.
 * Conda and Pip are package managers.
-* The LEGB abbreviation consists of the first letters of all Python scope names: Local, Enclosing, Global, Built-in.
 * CPython is the default implementation of the Python programming language.
 * **Python While Else** - With the else statement we can run a block of code once when the condition no longer is true:
 * Python supports functional programming.
